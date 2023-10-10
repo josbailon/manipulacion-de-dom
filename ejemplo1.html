@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ejemplo1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo1</title>
+</head>
+<body>
+    <!--  -->
+      <!--titulo de prueba  -->
+      <h1 id="miTitulo">¡Hola, Mundo!</h1>
+      <!--entrada de texto  -->
+      <input type="text" id="nuevoTexto" placeholder="ingrese nuevo titulo">
+      <!-- boton -->
+      <button onclick="cambiarTexto()"> cambiar Texto </button>
+      <script>
+      // agregamos una funcion
+      function cambiarTexto() {
+            // Obtener el nuevo texto 
+            var nuevoTexto = document.getElementById("nuevoTexto").value;
+            // Obtener el elemento del título
+            var elemento = document.getElementById("miTitulo");
+            // Cambiar el contenido del elemento del título
+            elemento.innerHTML = nuevoTexto;
+
+    }</script>
+     <iframe src="https://giphy.com/embed/fuJPZBIIqzbt1kAYVc"
+      width="300" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
+        <a href="https://giphy.com/gifs/HostGator-webhosting-hostgator-webhost-fuJPZBIIqzbt1kAYVc"></a></p>
+</body>
+</html>
